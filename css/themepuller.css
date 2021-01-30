@@ -1,0 +1,83 @@
+.pomodoro_timer {
+  background-color: rgb(240, 91, 86);
+  min-height: 912px;
+  width: 100%;
+  color: white;
+  transition: background-color 0.5s ease-in-out 0s;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pomodoro_timer .btn{
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  font-weight: 300;
+}
+.pomodoro_timer .btn.btn-success{
+  border: none;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.pomodoro_timer .btn-lg {
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-family: ArialRounded;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(240, 91, 86);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+}
+.pomodoro_timer h1.text-center {
+  color: #fff;
+  font-size: 48px;
+  /* margin-bottom: 65px; */
+  border-bottom: 1px solid #eee;
+  max-width: 412px;
+  margin: 0 auto 50px;
+  /* text-transform: capitalize; */
+  padding-top: 50px;
+}
+
+.pomodoro_timer.shortbreak {
+  background: rgb(76, 166, 169);
+}
+.pomodoro_timer.shortbreak .btn-lg {
+  color: rgb(76, 166, 169);
+}
+
+
+
+.pomodoro_timer.longbreak {
+  background:rgb(73, 143, 193);
+}
+.pomodoro_timer.longbreak .btn-lg {
+  color:rgb(73, 143, 193);
+}

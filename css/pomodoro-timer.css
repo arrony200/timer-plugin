@@ -1,0 +1,43 @@
+.timer-time {
+    line-height:1em;
+    font-size: 6em;
+}
+
+.timer-container {
+  height: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+.timer-box {
+  height: 1em;
+  margin: auto;
+  position: relative;
+}
+
+.timer-box > span {
+  position: relative;
+}
+button#stopButton {
+  display: none;
+}
+.timer-box {
+  font-weight: 700;
+}
+p.break-text{
+  display: none;
+}
+p.break-text,
+p.pomodoro-text {
+  margin-top: 30px;
+}
+
+.longbreak p.break-text,
+.shortbreak p.break-text{
+  display: block;
+}
+
+.longbreak p.pomodoro-text,
+.shortbreak p.pomodoro-text {
+  display: none;
+}
